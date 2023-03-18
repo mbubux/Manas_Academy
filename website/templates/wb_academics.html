@@ -1,0 +1,334 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Academics</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'wb_css/style.css' %}">
+
+    <!-- Google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar">
+        <div class="filled"></div>
+    </div>
+
+    <div class="container">
+
+        <!-- NAVIGATION BAR -->
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="navbar-logo">
+                <img src="{% static 'wb_assets/icon/manas_logo.png' %}" alt="Manas Academy logo" id="logo">
+                <!-- <span class="vertical-line"></span> -->
+                <a href="/" class="school-name">Manas<br>Academy</br></a>
+            </div>
+
+            <!-- Navbar lists -->
+            <div class="navbar-lists" id="navbar-lists">
+                <ul>
+                    <li class="nav-lists"><a href="{% url 'wb_admission' %}" class="link">Admission</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_academics' %}" class="link">Academics</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_facilities' %}" class="link">Facilities</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_faculties' %}" class="link">Faculties</a></li>
+                    <!-- <li class="nav-lists"><a href="login.html" class="link">Parent Portal</a></li> -->
+                    <li class="nav-lists"><a href="{% url 'wb_about' %}" class="link">About us</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_contact' %}" class="link">Contact us</a></li>
+                    <li class="nav-lists"><a href="{% url 'IndexView' %}" class="link" style="padding: 0.5rem 1.5rem; background-color: var(--primary-green-color); color: #ffffff; border-radius: 0.5rem;">Login</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu-icon -->
+            <div class="menu">
+                <!-- <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span> -->
+                <span class="material-symbols-outlined" id="menu-icon" style="display: block;" onclick="openMenu()">
+                    menu
+                </span>
+                <span class="material-symbols-outlined" id="close-icon" style="display: none;" onclick="closeMenu()">
+                    close
+                </span>
+            </div>
+        </div>
+        <!-- -------------------------------------------------- -->
+
+        <!-- BRIEF -->
+        <div class="brief-container">
+
+            <div class="brief">
+                <h3>ACADEMICS</h3>
+                <p>Development of personality is a pre-condition for a successful performance to enter the world of
+                    competiton. Keeping this in view, Manas Academy has made it mandatory for every students of the
+                    School to participate in the personality development programme to help culture, self-assertion and
+                    grip in practical life.</p>
+            </div>
+
+            <div class="video-container">
+                <div class="video">
+                    <video src="{% static 'wb_assets/video/academic.mp4' %}" muted id="about-video"></video>
+
+                </div>
+
+                <img src="{% static 'wb_assets/icon/play_icon.svg' %}" alt="Play icon" id="play-icon" onclick="playVideo()"
+                    style="display: block;">
+                <img src="{% static 'wb_assets/icon/pause_icon.svg' %}" alt="Pause icon" id="pause-icon" onclick="pauseVideo()"
+                    style="display: none;">
+            </div>
+
+        </div>
+
+        <!-- ACADEMICS FEATURES -->
+        <div class="academic-container">
+            <!-- FEATURES -->
+            <h3>Why Manas Academy?</h3>
+            <p>Individual care are taken for each student to help remove the deficiencies and improve performance.
+                Regular internal evaluation amd practical examination are held for regular evaluation amd further
+                improvement.</p>
+            <div class="feature-container">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="icon">
+                            <img src="{% static 'wb_assets/icon/teacher_student_icon.svg' %}" alt="Teacher-Student ratio icon">
+                        </div>
+                    </div>
+                    <!-- <img src="./assets/icon/teacher_student_icon.svg" alt="Teacher-Student ratio icon" class="feature-icon"> -->
+                    <div class="feature-content">
+                        <p class="title">Teacher-student ratio</p>
+                        <p class="detail">The teacher-student ratio is maintained at 1:25. A fixed number of 50 students
+                            are admitted into a class.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="icon">
+                            <img src="{% static 'wb_assets/icon/remedial_class_icon.svg' %}" alt="Remedial class icon">
+                        </div>
+                    </div>
+                    <!-- <img src="./assets/icon/books.svg" alt="Books icon" class="feature-icon"> -->
+                    <div class="feature-content">
+                        <p class="title">Written tests</p>
+                        <p class="detail">Written test begins in Class-I.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <div class="icon">
+                            <img src="{% static 'wb_assets/icon/one_to_one_teaching_icon.svg' %}" alt="One-one teaching icon">
+                        </div>
+                    </div>
+                    <!-- <img src="./assets/icon/computer_icon.svg" alt="Computer icon" class="feature-icon"> -->
+                    <div class="feature-content">
+                        <p class="title">Counseling to students</p>
+                        <p class="detail">Each teacher assumes the responsibility of counseling of 10-15 students, on
+                            all matters, continuously for a period of six years as they move from Class-V to Class-X.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACADEMIC DETAILS -->
+        <div class="academic-details-container">
+            <div class="academic-catalogue">
+                <img src="{% static 'wb_assets/image/students.jpg' %}" alt="Students" class="catalogue-img">
+                <div class="catalogue-details">
+                    <h3>STUDENTS</h3>
+                    <p>500+</p>
+                </div>
+            </div>
+
+            <div class="academic-catalogue">
+                <img src="{% static 'wb_assets/image/classroom.jpg' %}" alt="Classroom" class="catalogue-img">
+                <div class="catalogue-details">
+                    <h3>CLASSROOM</h3>
+                    <p>16</p>
+                </div>
+            </div>
+
+            <div class="academic-catalogue">
+                <img src="{% static 'wb_assets/image/teachers.jpg' %}" alt="Teachers" class="catalogue-img">
+                <div class="catalogue-details">
+                    <h3>TEACHERS</h3>
+                    <p>30+</p>
+                </div>
+            </div>
+
+            <div class="academic-catalogue">
+                <img src="{% static 'wb_assets/image/library.jpg' %}" alt="Library" class="catalogue-img">
+                <div class="catalogue-details">
+                    <h3>LIBRARY BOOKS</h3>
+                    <p>5000+</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACHIEVEMENTS -->
+        <div class="achievement-container">
+            <h3>Our Achievements</h3>
+
+            <div class="achievement-container-inner">
+                <div class="achievement">
+                    <div class="achievement-img">
+                        <img src="{% static 'wb_assets/image/1.jpg' %}" alt="">
+                    </div>
+                    <div class="achievement-detail">
+                        <div class="achievement-date" id="date1">
+                            <p class="date">09 Dec' 2000</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae.</p>
+                    </div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-img">
+                        <img src="{% static 'wb_assets/image/3.jpg' %}" alt="">
+                    </div>
+                    <div class="achievement-detail">
+                        <div class="achievement-date" id="date2">
+                            <p class="date">09 Dec' 2000</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae.</p>
+                    </div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-img">
+                        <img src="{% static 'wb_assets/image/5.jpg' %}" alt="">
+                    </div>
+                    <div class="achievement-detail">
+                        <div class="achievement-date" id="date3">
+                            <p class="date">09 Dec' 2000</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae.</p>
+                    </div>
+                </div>
+
+                <div class="achievement">
+                    <div class="achievement-img">
+                        <img src="{% static 'wb_assets/image/7.jpg' %}" alt="">
+                    </div>
+                    <div class="achievement-detail">
+                        <div class="achievement-date" id="date4">
+                            <p class="date">09 Dec' 2000</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="links-container">
+                <div class="links-container-inner">
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">ADMISSIONS</p>
+                            <ul>
+                                <li>Ankur</li>
+                                <li>Pre-Primary</li>
+                                <li>Class (I - VIII)</li>
+                                <li>Class-IX</li>
+                                <li>Class-XI</li>
+                            </ul>
+
+                        </div>
+                        <div class="group">
+                            <p class="head">FACILITIES</p>
+                            <ul>
+                                <li>Hostel Booking</li>
+                                <li>Bus Service</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">RESOURCES</p>
+                            <ul>
+                                <li>Academic Calendar</li>
+                                <li>Holiday List</li>
+                                <li>Admission Guideline</li>
+                                <li>Fee Structure</li>
+                            </ul>
+                        </div>
+
+                        <div class="group">
+                            <p class="head">ABOUT</p>
+                            <ul>
+                                <li>Achievements</li>
+                                <li>History</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other">
+                    <!-- <div class="google-maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.556633993405!2d90.95402721510713!3d26.437780686738023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3759756f5cebc3f9%3A0x4f81a60cf6078b1f!2sHasan&#39;s%20Home!5e0!3m2!1sen!2sin!4v1671633227454!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> -->
+
+                    <div class="message">
+                        <form action="mailto:manasacademy2018@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-contents">
+                                <h3>Write to us.</h3>
+                                <div class="form-inner">
+                                    <input type="text" placeholder="Name" name="name" required>
+                                    <input type="email" placeholder="Email" name="email" required>
+                                    <textarea placeholder="Message..." rows="5" name="message" required></textarea>
+                                    <button type="submit" class="btn">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="social-links">
+                <a href="#" class="social facebook">
+                    <img src="{% static 'wb_assets/icon/facebook.png' %}" alt="Facebook icon">
+                </a>
+                <a href="#" class="social twitter">
+                    <img src="{% static 'wb_assets/icon/twitter.png' %}" alt="Twitter icon">
+                </a>
+                <a href="#" class="social linkedin">
+                    <img src="{% static 'wb_assets/icon/linkedin.png' %}" alt="LinkedIn icon">
+                </a>
+                <a href="#" class="social instagram">
+                    <img src="{% static 'wb_assets/icon/instagram.png' %}" alt="Instagram icon">
+                </a>
+            </div>
+
+            <div class="copyright-developer">
+                <p class="copyright">All rights reserved.<br>&copy; 2023 Manas Academy.</p>
+                <p class="developer">Made with &#10084; in India by <a href="https://threedot.in/" target="_blank"
+                        class="developer-site-link">ThreeDot.</a></p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="{% static 'wb_js/app.js' %}"></script>
+
+</body>
+
+</html>

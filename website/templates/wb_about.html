@@ -1,0 +1,319 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>About us</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'wb_css/style.css' %}">
+
+    <!-- Google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar">
+        <div class="filled"></div>
+    </div>
+
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="navbar-logo">
+                <img src="{% static 'wb_assets/icon/manas_logo.png' %}" alt="Manas Academy logo" id="logo">
+                <!-- <span class="vertical-line"></span> -->
+                <a href="/" class="school-name">Manas<br>Academy</br></a>
+            </div>
+
+            <!-- Navbar lists -->
+            <div class="navbar-lists" id="navbar-lists">
+                <ul>
+                    <li class="nav-lists"><a href="{% url 'wb_admission' %}" class="link">Admission</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_academics' %}" class="link">Academics</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_facilities' %}" class="link">Facilities</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_faculties' %}" class="link">Faculties</a></li>
+                    <!-- <li class="nav-lists"><a href="login.html" class="link">Parent Portal</a></li> -->
+                    <li class="nav-lists"><a href="{% url 'wb_about' %}" class="link">About us</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_contact' %}" class="link">Contact us</a></li>
+                    <li class="nav-lists"><a href="{% url 'IndexView' %}" class="link" style="padding: 0.5rem 1.5rem; background-color: var(--primary-green-color); color: #ffffff; border-radius: 0.5rem;">Login</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu-icon -->
+            <div class="menu">
+                <!-- <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span> -->
+                <span class="material-symbols-outlined" id="menu-icon" style="display: block;" onclick="openMenu()">
+                    menu
+                </span>
+                <span class="material-symbols-outlined" id="close-icon" style="display: none;" onclick="closeMenu()">
+                    close
+                </span>
+            </div>
+        </div>
+        <!-- -------------------------------------------------- -->
+
+        <!-- ABOUT US -->
+        <div class="about-container">
+            <h3>About us.</h3>
+            <p>Manas Academy, a Private Sector educational institute, situated at Kaljhar, that enjoys a unique
+                place in the history of education, culture, art and socio-economic development of Assam. Manas Academy,
+                run by Manas Rural Development Association, an NGO which is dedicated to the quality of education and
+                social welfare duly registered under <span style="font-weight: 500;">Societies Registration Act, 1860
+                    (No. BAR/237/Z/33 of 2020-2021)</span> has
+                set a high academic record and an example of excellence within a very short span of time.</p>
+
+            <p>The institute provides seven specific branches of formal education -</p>
+            <p style="text-indent: 3rem;">1) Manas Academy Assamese Medium School (Ankur to Astam Shreni).</p>
+            <p style="text-indent: 3rem;">2) Manas Academy Senior Secondary School (Class-IX, Class-X)</p>
+
+            <p>Manas Academy is a humble venture to generate an academic atmosphere for practical learning in the field
+                of education and self-orientation programme. The Academy keeps in record the hurdles experienced in
+                executing its honest and ambitious plans to guide the young learners and feels the same soluble with the
+                active co-operation of the learners as well as the guardians. The practical and scientific basis of the
+                teaching pedagogy of the Academy will assuredly yield fruitful crop with the learners, teachers and
+                guardians partaking the spirit acknowledged. Manas Academy belongs to you, to us all and sundry. Let the
+                enlightenment of Manas Academy ever kindle the light in you and all.</p>
+        </div>
+
+
+        <!-- PRINCIPAL's DESK -->
+        <div class="message-desk-container">
+            <h3>Principal's message.</h3>
+            <div class="message-container">
+                <div class="message-desk">
+                    <div class="people">
+                            <img src="{% static 'wb_assets/image/principal.jpeg' %}" alt="Principal's image">
+                        <p class="name">Mrs. XYZ</p>
+                        <p class="qualification">M.Phil., PhD.</p>
+                    </div>
+                    <div class="message">
+                        <!-- <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora.</q> -->
+                        <p>When we talk about Manas Academy of late, we talk about an unrivalled educational institution
+                            imparting quality education for all stages of learners and that echoes in our ears. It has,
+                            in its course of journey, established an identity in the society as the real path-finder to
+                            the teachers, students, guardians and others. Kaljhar and its surrounding areas has shone
+                            bright in public opinion as <span style="font-weight: 500;">“Educational Garden”</span> for
+                            the successful implementation of the
+                            continued effort of Manas Academy. We sincerely believe that in order to keep the continuity
+                            of the positive elements in the society like peace, value-based concept, smooth development,
+                            unity etc., it is necessary to enrich the foundation of social awareness. Manas Academy
+                            always holds a healthy and inspiring view towards uplifting social environment.</p>
+                        <p>With a view to giving a practical turn to the teaching and learning in a most effective
+                            manner, Manas Academy is imparting education from Pre-Primary, Lower Primary, Upper Primary,
+                            High School. Our students have already shown their talents by bringing laurels from various
+                            Colleges of high repute.</p>
+                        <p>The Academy keeps in record the hurdles experienced in executing its honest and ambitious
+                            plans to guide the young learners and feels the same soluble with the active co-operation of
+                            the learners as well as the guardians. The practical and scientific basis of the teaching
+                            pedagogy of the Academy will assuredly yield fruitful crop with the learners, teachers and
+                            guardians partaking the spirit acknowledged. Manas Academy belongs to you, to us all and
+                            sundry. Let the enlightenment of Manas Academy ever kindle the light in you and all.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MISSION & VISSION -->
+        <div class="mission-vision-container">
+            <h3>MISSION & VISION</h3>
+            <div class="mission">
+                <p class="title"><span>Mission</span></p>
+                <p class="text"><span style="font-weight: 500;">MANAS ACADEMY, KALJHAR</span> regards education as a
+                    mission to serve the people and nation at
+                    large by educating and molding students to take up responsibility willingly and voluntarily with all
+                    their commitment and social accountability expected of them in return of what the government is
+                    spending on them.</p>
+            </div>
+
+            <div class="vision">
+                <p class="title"><span>Vision</span></p>
+                <p class="text">The holistic development of the rural and interior youth of areas. To make good quality
+                    higher education within the reach of the common people of Manas Academy, Kaljhar village and many
+                    surrounding villages in the region and to ensure that the education imparted would not only enrich
+                    the student's knowledge but also self discipline, self confidence and human values which would help
+                    them to become responsible citizen of the country.</p>
+            </div>
+        </div>
+
+
+        <!-- HISTORY -->
+        <div class="history-container">
+            <h3>History</h3>
+
+            <div class="history-container-inner">
+                <div class="history">
+                    <!-- Event 1 -->
+                    <div class="event" id="event1">
+                        <img src="{% static 'wb_assets/image/3.jpg' %}" alt="Graphics">
+                        <div class="event-detail">
+                            <p class="title">Inauguration</p>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi
+                                recusandae laboriosam harum!</p>
+                        </div>
+                    </div>
+
+                    <!-- Event 2 -->
+                    <div class="event" id="event2" style="display: none;">
+                        <img src="{% static 'wb_assets/image/5.jpg' %}" alt="Graphics">
+                        <div class="event-detail">
+                            <p class="title">ISO Registration</p>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi
+                                recusandae laboriosam harum!</p>
+                        </div>
+                    </div>
+
+                    <!-- Event 3 -->
+                    <div class="event" id="event3" style="display: none;">
+                        <img src="{% static 'wb_assets/image/7.jpg' %}" alt="Graphics">
+                        <div class="event-detail">
+                            <p class="title">Class Nursery - Class 5</p>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi
+                                recusandae laboriosam harum!</p>
+                        </div>
+                    </div>
+
+                    <!-- Event 4 -->
+                    <div class="event" id="event4" style="display: none;">
+                        <img src="{% static 'wb_assets/image/1.jpg' %}" alt="Graphics">
+                        <div class="event-detail">
+                            <p class="title">Class 5 - 10</p>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi
+                                recusandae laboriosam harum!</p>
+                        </div>
+                    </div>
+
+                    <!-- Event 5 -->
+                    <div class="event" id="event5" style="display: none;">
+                        <img src="{% static 'wb_assets/image/8.jpg' %}" alt="Graphics">
+                        <div class="event-detail">
+                            <p class="title">Class 11 - 12</p>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi
+                                recusandae laboriosam harum!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <p class="year" id="1" onclick="showEvent(this)">1999</p>
+                    <p class="year" id="2" onclick="showEvent(this)">2001</p>
+                    <p class="year" id="3" onclick="showEvent(this)">2003</p>
+                    <p class="year" id="4" onclick="showEvent(this)">2005</p>
+                    <p class="year" id="5" onclick="showEvent(this)">2007</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="links-container">
+                <div class="links-container-inner">
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">ADMISSIONS</p>
+                            <ul>
+                                <li>Ankur</li>
+                                <li>Pre-Primary</li>
+                                <li>Class (I - VIII)</li>
+                                <li>Class-IX</li>
+                                <li>Class-XI</li>
+                            </ul>
+
+                        </div>
+                        <div class="group">
+                            <p class="head">FACILITIES</p>
+                            <ul>
+                                <li>Hostel Booking</li>
+                                <li>Bus Service</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">RESOURCES</p>
+                            <ul>
+                                <li>Academic Calendar</li>
+                                <li>Holiday List</li>
+                                <li>Admission Guideline</li>
+                                <li>Fee Structure</li>
+                            </ul>
+                        </div>
+
+                        <div class="group">
+                            <p class="head">ABOUT</p>
+                            <ul>
+                                <li>Achievements</li>
+                                <li>History</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other">
+                    <!-- <div class="google-maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.556633993405!2d90.95402721510713!3d26.437780686738023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3759756f5cebc3f9%3A0x4f81a60cf6078b1f!2sHasan&#39;s%20Home!5e0!3m2!1sen!2sin!4v1671633227454!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> -->
+
+                    <div class="message">
+                        <form action="mailto:manasacademy2018@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-contents">
+                                <h3>Write to us.</h3>
+                                <div class="form-inner">
+                                    <input type="text" placeholder="Name" name="name" required>
+                                    <input type="email" placeholder="Email" name="email" required>
+                                    <textarea placeholder="Message..." rows="5" name="message" required></textarea>
+                                    <button type="submit" class="btn">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="social-links">
+                <a href="#" class="social facebook">
+                    <img src="{% static 'wb_assets/icon/facebook.png' %}" alt="Facebook icon">
+                </a>
+                <a href="#" class="social twitter">
+                    <img src="{% static 'wb_assets/icon/twitter.png' %}" alt="Twitter icon">
+                </a>
+                <a href="#" class="social linkedin">
+                    <img src="{% static 'wb_assets/icon/linkedin.png' %}" alt="LinkedIn icon">
+                </a>
+                <a href="#" class="social instagram">
+                    <img src="{% static 'wb_assets/icon/instagram.png' %}" alt="Instagram icon">
+                </a>
+            </div>
+
+            <div class="copyright-developer">
+                <p class="copyright">All rights reserved.<br>&copy; 2023 Manas Academy.</p>
+                <p class="developer">Made with &#10084; in India by <a href="https://threedot.in/" target="_blank"
+                        class="developer-site-link">ThreeDot.</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="{% static 'wb_js/app.js' %}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,452 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Facilities</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'wb_css/style.css' %}">
+
+    <!-- Google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar">
+        <div class="filled"></div>
+    </div>
+
+    <div class="container">
+        <!-- NAVIGATION BAR -->
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="navbar-logo">
+                <img src="{% static 'wb_assets/icon/manas_logo.png' %}" alt="Manas Academy logo" id="logo">
+                <!-- <span class="vertical-line"></span> -->
+                <a href="/" class="school-name">Manas<br>Academy</br></a>
+            </div>
+
+            <!-- Navbar lists -->
+            <div class="navbar-lists" id="navbar-lists">
+                <ul>
+                    <li class="nav-lists"><a href="{% url 'wb_admission' %}" class="link">Admission</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_academics' %}" class="link">Academics</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_facilities' %}" class="link">Facilities</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_faculties' %}" class="link">Faculties</a></li>
+                    <!-- <li class="nav-lists"><a href="login.html" class="link">Parent Portal</a></li> -->
+                    <li class="nav-lists"><a href="{% url 'wb_about' %}" class="link">About us</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_contact' %}" class="link">Contact us</a></li>
+                    <li class="nav-lists"><a href="{% url 'IndexView' %}" class="link" style="padding: 0.5rem 1.5rem; background-color: var(--primary-green-color); color: #ffffff; border-radius: 0.5rem;">Login</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu-icon -->
+            <div class="menu">
+                <!-- <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span> -->
+                <span class="material-symbols-outlined" id="menu-icon" style="display: block;" onclick="openMenu()">
+                    menu
+                </span>
+                <span class="material-symbols-outlined" id="close-icon" style="display: none;" onclick="closeMenu()">
+                    close
+                </span>
+            </div>
+        </div>
+        <!-- -------------------------------------------------- -->
+
+        <!-- ALL FACILITIES CAROUSEL -->
+        <div class="facilities-container">
+            <h3>Facilities at ThreeDot</h3>
+            <div class="facilities-overview">
+                <div class="facilities">
+                    <p class="tagline">Building a Better World for your Child</p>
+                    <p class="title">OUR FACILITIES</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                        <br>
+
+                        <ul>
+                            <li><span style="color: var(--primary-green-color);">&nbsp; &#10026; &nbsp;</span> Modern
+                                Infrastructure
+                            </li>
+                            <li><span style="color: var(--primary-green-color);">&nbsp; &#10026; &nbsp;</span> Indoor
+                                and Outdoor
+                                Games
+                            </li>
+                            <li><span style="color: var(--primary-green-color);">&nbsp; &#10026; &nbsp;</span>
+                                Acoustically enriched
+                                Music Room</li>
+                            <li><span style="color: var(--primary-green-color);">&nbsp; &#10026; &nbsp;</span> Artwork
+                                around the
+                                campus
+                            </li>
+                            <li><span style="color: var(--primary-green-color);">&nbsp; &#10026; &nbsp;</span> Well
+                                stocked Library
+                                and
+                                Well-equipped
+                                Laboratories</li>
+                            <li><span style="color: var(--primary-green-color);">&nbsp; &#10026; &nbsp;</span> Safe and
+                                Convenient
+                                Transport</li>
+                            <li><span style="color: var(--primary-green-color);">&nbsp; &#10026; &nbsp;</span>
+                                Pedagogically designed
+                                Curriculum</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="facilities-img">
+                    <div class="carousel">
+
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/1.jpg' %}" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/2.jpg' %}" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/3.jpg' %}" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/4.jpg' %}" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/5.jpg' %}" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/6.jpg' %}" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/7.jpg' %}" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="{% static 'wb_assets/image/8.jpg' %}" style="width:100%">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="facilities-overview">
+                <div class="facilities">
+                    <p class="tagline">Good Infrastructure, Better Study</p>
+                    <p class="title">OUR INFRASTRUCTURE</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                    </div>
+                </div>
+
+                <div class="facilities-img">
+                    <img src="{% static 'wb_assets/image/infrastructure.jpg' %}" alt="Infrastructure">
+                </div>
+            </div>
+
+            <div class="facilities-overview">
+                <div class="facilities">
+                    <p class="tagline">All Work and No Play Makes Jack a Dull Boy</p>
+                    <p class="title">SPORTS</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                    </div>
+                </div>
+                <div class="facilities-img">
+                    <img src="{% static 'wb_assets/image/sports.jpg' %}" alt="Sports">
+                </div>
+            </div>
+
+            <div class="facilities-overview">
+                <div class="facilities">
+                    <p class="tagline">A Good Experiment is a Good Understanding</p>
+                    <p class="title">LABORATORIES</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                    </div>
+                </div>
+
+                <div class="facilities-img">
+                    <img src="{% static 'wb_assets/image/laboratory.jpg' %}" alt="Laboratory">
+                </div>
+            </div>
+
+            <div class="facilities-overview">
+                <div class="facilities">
+                    <p class="tagline">Great Events. Priceless Memories.</p>
+                    <p class="title">CULTURAL ACTIVITIES</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                    </div>
+                </div>
+
+                <div class="facilities-img">
+                    <img src="{% static 'wb_assets/image/cultural.jpg' %}" alt="Cultural Activities">
+                </div>
+            </div>
+
+            <div class="facilities-overview">
+                <div class="facilities">
+                    <p class="tagline">A Portal to Different Dimension, Where the Adventure Begins.</p>
+                    <p class="title">LIBRARY</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                    </div>
+                </div>
+
+
+                <div class="facilities-img">
+                    <img src="{% static 'wb_assets/image/library.jpg' %}" alt="Library">
+                </div>
+            </div>
+
+            <div class="facilities-overview">
+                <div class="facilities">
+                    <p class="tagline">School Bus - Connects Home to School</p>
+                    <p class="title">SCHOOL BUS</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                    </div>
+                </div>
+
+
+                <div class="facilities-img">
+                    <img src="{% static 'wb_assets/image/school_bus.jpg' %}" alt="School Bus">
+                </div>
+            </div>
+
+            <div class="facilities-overview">
+
+                <div class="facilities">
+
+                    <p class="tagline">A Home that Cares.</p>
+                    <p class="title">HOSTEL</p>
+                    <div class="bar">
+                        <span></span><span></span>
+                    </div>
+
+                    <br>
+
+                    <div class="facilities-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam natus debitis
+                            cumque!
+                            Obcaecati sit harum alias, officia qui fugiat porro quae pariatur, architecto non expedita
+                            incidunt assumenda recusandae vel dolores consequatur possimus facilis! Quidem in,
+                            asperiores
+                            aliquam quia libero totam a esse nam ab, sapiente ad aspernatur sit quibusdam sunt?</p>
+
+                    </div>
+                </div>
+
+
+                <div class="facilities-img">
+                    <img src="{% static 'wb_assets/image/hostel.jpg' %}" alt="Hostel">
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="links-container">
+                <div class="links-container-inner">
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">ADMISSIONS</p>
+                            <ul>
+                                <li>Ankur</li>
+                                <li>Pre-Primary</li>
+                                <li>Class (I - VIII)</li>
+                                <li>Class-IX</li>
+                                <li>Class-XI</li>
+                            </ul>
+
+                        </div>
+                        <div class="group">
+                            <p class="head">FACILITIES</p>
+                            <ul>
+                                <li>Hostel Booking</li>
+                                <li>Bus Service</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">RESOURCES</p>
+                            <ul>
+                                <li>Academic Calendar</li>
+                                <li>Holiday List</li>
+                                <li>Admission Guideline</li>
+                                <li>Fee Structure</li>
+                            </ul>
+                        </div>
+
+                        <div class="group">
+                            <p class="head">ABOUT</p>
+                            <ul>
+                                <li>Achievements</li>
+                                <li>History</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other">
+                    <!-- <div class="google-maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.556633993405!2d90.95402721510713!3d26.437780686738023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3759756f5cebc3f9%3A0x4f81a60cf6078b1f!2sHasan&#39;s%20Home!5e0!3m2!1sen!2sin!4v1671633227454!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> -->
+
+                    <div class="message">
+                        <form action="mailto:manasacademy2018@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-contents">
+                                <h3>Write to us.</h3>
+                                <div class="form-inner">
+                                    <input type="text" placeholder="Name" name="name" required>
+                                    <input type="email" placeholder="Email" name="email" required>
+                                    <textarea placeholder="Message..." rows="5" name="message" required></textarea>
+                                    <button type="submit" class="btn">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="social-links">
+                <a href="#" class="social facebook">
+                    <img src="{% static 'wb_assets/icon/facebook.png' %}" alt="Facebook icon">
+                </a>
+                <a href="#" class="social twitter">
+                    <img src="{% static 'wb_assets/icon/twitter.png' %}" alt="Twitter icon">
+                </a>
+                <a href="#" class="social linkedin">
+                    <img src="{% static 'wb_assets/icon/linkedin.png' %}" alt="LinkedIn icon">
+                </a>
+                <a href="#" class="social instagram">
+                    <img src="{% static 'wb_assets/icon/instagram.png' %}" alt="Instagram icon">
+                </a>
+            </div>
+
+            <div class="copyright-developer">
+                <p class="copyright">All rights reserved.<br>&copy; 2023 Manas Academy.</p>
+                <p class="developer">Made with &#10084; in India by <a href="https://threedot.in/" target="_blank"
+                        class="developer-site-link">ThreeDot.</a></p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="{% static 'wb_js/app.js' %}"></script>
+
+</body>
+
+</html>

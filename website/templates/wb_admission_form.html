@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Admission form</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="admission-form-container">
+        <div class="mac-screen-dot">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="admission-form-title">
+            <span></span>
+            <p>Admision form</p>
+            <span></span>
+        </div>
+
+        <form action="/" method="get">
+            <div class="student-photo">
+                <!-- <span class="material-symbols-outlined">
+                    add_photo_alternate
+                </span>
+                <input type="file" name="photo" id="photo">
+                <input type="submit" value="Upload"> -->
+                <input type="image" src="./assets/icon/add_photo_icon.svg" alt="Student's photo icon">
+                <input type="file" name="photo" id="studentPhoto" style="display: none;">
+            </div>
+
+            <div class="form-items">
+                <div class="name-field">
+                    <div class="name">
+                        <label for="firstname">First name<sup>*</sup></label>
+                        <input type="text" placeholder="e.g.:Rohit" name="firstname" required>
+                    </div>
+
+                    <!-- <div class="name">
+                        <label for="middlename">Middle name</label>
+                        <input type="text" name="middlename">
+                    </div> -->
+
+                    <div class="name">
+                        <label for="lastname">Last name<sup>*</sup></label>
+                        <input type="text" placeholder="e.g.:John" name="lastname" required>
+                    </div>
+                </div>
+
+                <div class="email-dob-phone-field">
+                    <div class="email">
+                        <label for="email">Email<sup>*</sup></label>
+                        <input type="email" placeholder="e.g.:123@gmail.com" name="email" required>
+                    </div>
+
+                    <div class="dob">
+                        <label for="dob">Date of birth<sup>*</sup></label>
+                        <input type="date" name="dob" required>
+                        <!-- <span class="material-symbols-outlined">
+                            calendar_month
+                        </span> -->
+                    </div>
+
+                    <div class="phone-number">
+                        <label for="phone">Mobile number<sup>*</sup></label>
+                        <input type="tel" placeholder="e.g.:+91-1234567890" name="phone" required>
+                    </div>
+                </div>
+
+                <div class="class-address">
+                    <div class="class">
+                        <label for="class">Class<sup>*</sup></label>
+                        <select name="class" id="class">
+                            <option value="nursery">Ankur</option>
+                            <option value="kg">Pre-Primary</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                            <option value="seven">7</option>
+                            <option value="eight">8</option>
+                            <option value="nine">9</option>
+                            <option value="eleven">11</option>
+                        </select>
+                    </div>
+
+                    <div class="address">
+                        <label for="address">Address<sup>*</sup></label>
+                        <textarea name="address" id="address" placeholder="9th block,Howly,Barpeta,Assam,India"
+                            cols="30" rows="1"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <input type="button" value="Submit">
+
+            <br><br><br>
+
+            <p><sup>*</sup>Required fields.</p>
+        </form>
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>

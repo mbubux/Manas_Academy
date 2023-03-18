@@ -1,0 +1,497 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Home | Manas Academy</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'wb_css/style.css' %}">
+
+    <!-- Google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar">
+        <div class="filled"></div>
+    </div>
+
+
+    <div class="container">
+
+        <!-- NAVIGATION BAR -->
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="navbar-logo">
+                <img src="{% static 'wb_assets/icon/manas_logo.png' %}" alt="Manas Academy logo" id="logo">
+                <!-- <span class="vertical-line"></span> -->
+                <a href="/" class="school-name">Manas<br>Academy</br></a>
+            </div>
+
+            <!-- Navbar lists -->
+            <div class="navbar-lists" id="navbar-lists">
+                <ul>
+                    <li class="nav-lists"><a href="{% url 'wb_admission' %}" class="link">Admission</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_academics' %}" class="link">Academics</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_facilities' %}" class="link">Facilities</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_faculties' %}" class="link">Faculties</a></li>
+                    <!-- <li class="nav-lists"><a href="login.html" class="link">Parent Portal</a></li> -->
+                    <li class="nav-lists"><a href="{% url 'wb_about' %}" class="link">About us</a></li>
+                    <li class="nav-lists"><a href="{% url 'wb_contact' %}" class="link">Contact us</a></li>
+                    <li class="nav-lists"><a href="{% url 'IndexView' %}" class="link" style="padding: 0.5rem 1.5rem; background-color: var(--primary-green-color); color: #ffffff; border-radius: 0.5rem;">Login</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu-icon -->
+            <div class="menu">
+                <!-- <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span> -->
+                <span class="material-symbols-outlined" id="menu-icon" style="display: block;" onclick="openMenu()">
+                    menu
+                </span>
+                <span class="material-symbols-outlined" id="close-icon" style="display: none;" onclick="closeMenu()">
+                    close
+                </span>
+            </div>
+        </div>
+        <!-- -------------------------------------------------- -->
+
+        <!-- OVERVIEW -->
+        <div class="overview-container">
+
+            <div class="overview">
+                <div class="video">
+                    <video src="{% static 'wb_assets/video/overview_video.mp4' %}" autoplay muted loop></video>
+                </div>
+
+                <div class="overview-content">
+                    <p class="salutation">Welcome to</p>
+                    <p class="school">MANAS ACADEMY</p>
+                    <p class="content-brief">Manas Academy is a humble venture to generate an academic atmosphere for
+                        practical learning in the field of education and self-orientation programme. The Academy keeps
+                        in record the hurdles experienced in executing its honest and ambitious plans to guide the young
+                        learners and feels the same soluble with the active co-operation of the learners as well as the
+                        guardians.
+                    </p>
+
+                    <div class="date-btn">
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        <p class="date">9 Mar' 2023</p>
+                        <a href="#" class="btn">Apply now</a>
+                        <!-- <a href="#">
+                            <button class="btn">Apply now</button>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------------------------- -->
+
+        <!-- ABOUT SCHOOL -->
+        <div class="brief-container">
+
+            <div class="brief">
+                <h3>About Manas Academy</h3>
+                <p>It is a Private Sector educational institute situated at Kaljhar, that enjoys a unique place
+                    in
+                    the history of education, culture, art and socio-economic development of Assam. Manas Academy, run
+                    by
+                    Manas Rural Development Association, an NGO which is dedicated to the quality of education and
+                    social welfare duly registered under <span style="font-weight: 500;">Societies Registration Act,
+                        1860 (No. BAR/237/Z/33 of
+                        2020-2021)</span>
+                    has set a high academic record and an example of excellence within a very short span of time.</p>
+
+                <a href="about.html">
+                    <button class="btn">Learn more &raquo;</button>
+                </a>
+            </div>
+
+            <div class="video-container">
+                <div class="video">
+                    <video src="{% static 'wb_assets/video/about.mp4' %}" muted id="about-video"></video>
+
+                </div>
+
+                <img src="{% static 'wb_assets/icon/play_icon.svg' %}" alt="Play icon" id="play-icon" onclick="playVideo()"
+                    style="display: block;">
+                <img src="{% static 'wb_assets/icon/pause_icon.svg' %}" alt="Pause icon" id="pause-icon" onclick="pauseVideo()"
+                    style="display: none;">
+            </div>
+
+        </div>
+
+        <!-- -------------------------------------------------- -->
+
+        <!-- NOTICE BOARD -->
+        <div class="notice-board-container">
+            <div class="academic-notice">
+                <p class="heading">ACADEMIC NOTICE</p>
+                <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"
+                    class="notice-board">
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Result Declaration</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/MA-Result Notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 2</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 3</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 4</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    
+                    <!--
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="./assets/icon/pdf_icon.svg" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 5</p>
+                        </div>
+                        <a href="./assets/file/notice.pdf" download>
+                            <img src="./assets/icon/download.svg" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="./assets/icon/pdf_icon.svg" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 6</p>
+                        </div>
+                        <a href="./assets/file/notice.pdf" download>
+                            <img src="./assets/icon/download.svg" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="./assets/icon/pdf_icon.svg" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 7</p>
+                        </div>
+                        <a href="./assets/file/notice.pdf" download>
+                            <img src="./assets/icon/download.svg" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    -->
+                </marquee>
+
+                <p class="view-more">View more &raquo;</p>
+            </div>
+            <div class="important-notice">
+                <p class="heading">IMPORTANT NOTICE</p>
+                <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"
+                    class="notice-board">
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Result Declaration</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/MA-Result Notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 2</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 3</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="{% static 'wb_assets/icon/pdf_icon.svg' %}" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 4</p>
+                        </div>
+                        <a href="{% static 'wb_assets/file/notice.pdf' %}" download>
+                            <img src="{% static 'wb_assets/icon/download.svg' %}" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    
+                    <!--
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="./assets/icon/pdf_icon.svg" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 5</p>
+                        </div>
+                        <a href="./assets/file/notice.pdf" download>
+                            <img src="./assets/icon/download.svg" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="./assets/icon/pdf_icon.svg" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 6</p>
+                        </div>
+                        <a href="./assets/file/notice.pdf" download>
+                            <img src="./assets/icon/download.svg" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    <div class="notice">
+                        <div class="pdf-logo-name">
+                            <img src="./assets/icon/pdf_icon.svg" alt="PDF icon" class="pdf-icon">
+                            <p class="pdf-name">Notice no. 7</p>
+                        </div>
+                        <a href="./assets/file/notice.pdf" download>
+                            <img src="./assets/icon/download.svg" alt="Download icon" class="download-icon">
+                        </a>
+                    </div>
+                    -->
+                </marquee>
+
+                <p class="view-more">View more &raquo;</p>
+            </div>
+        </div>
+
+        <!-- -------------------------------------------------- -->
+
+        <!-- IMAGE CAROUSEL -->
+        <div class="carousel-container">
+            <h3>GALLERY</h3>
+            <div class="carousel">
+
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/1.jpg' %}" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/2.jpg' %}" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/3.jpg' %}" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/4.jpg' %}" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/5.jpg' %}" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/6.jpg' %}" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/7.jpg' %}" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="{% static 'wb_assets/image/8.jpg' %}" style="width:100%">
+                </div>
+            </div>
+
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+        </div>
+
+
+        <!-- -------------------------------------------------- -->
+
+        <!-- CAMPUS LIFE -->
+        <div class="campus-life-container">
+            <h3 class="heading">CAMPUS LIFE</h3>
+            <div class="campus-life">
+                <div class="explore">
+                    <img src="{% static 'wb_assets/image/hostel.jpg' %}">
+                    <div>
+                        <h3 class="title">HOSTEL FACILITIES</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod?</p>
+                        <a href="facilities.html">
+                            <button class="btn">Learn more &raquo;</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="explore">
+                    <img src="{% static 'wb_assets/image/cultural.jpg' %}">
+                    <div>
+                        <h3 class="title">CULTURAL ACTIVITIES</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod?</p>
+                        <a href="facilities.html">
+                            <button class="btn">Learn more &raquo;</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="explore">
+                    <img src="{% static 'wb_assets/image/sports.jpg' %}">
+                    <div>
+                        <h3 class="title">SPORTS</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod?</p>
+                        <a href="facilities.html">
+                            <button class="btn">Learn more &raquo;</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="explore">
+                    <img src="{% static 'wb_assets/image/school_bus.jpg' %}">
+                    <div>
+                        <h3 class="title">SCHOOL BUS</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod?</p>
+                        <a href="facilities.html">
+                            <button class="btn">Learn more &raquo;</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------------------- -->
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="links-container">
+                <div class="links-container-inner">
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">ADMISSIONS</p>
+                            <ul>
+                                <li>Ankur</li>
+                                <li>Pre-Primary</li>
+                                <li>Class (I - VIII)</li>
+                                <li>Class-IX</li>
+                                <li>Class-XI</li>
+                            </ul>
+
+                        </div>
+                        <div class="group">
+                            <p class="head">FACILITIES</p>
+                            <ul>
+                                <li>Hostel Booking</li>
+                                <li>Bus Service</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div class="links-group">
+                        <div class="group">
+                            <p class="head">RESOURCES</p>
+                            <ul>
+                                <li>Academic Calendar</li>
+                                <li>Holiday List</li>
+                                <li>Admission Guideline</li>
+                                <li>Fee Structure</li>
+                            </ul>
+                        </div>
+
+                        <div class="group">
+                            <p class="head">ABOUT</p>
+                            <ul>
+                                <li>Achievements</li>
+                                <li>History</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other">
+                    <!-- <div class="google-maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.556633993405!2d90.95402721510713!3d26.437780686738023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3759756f5cebc3f9%3A0x4f81a60cf6078b1f!2sHasan&#39;s%20Home!5e0!3m2!1sen!2sin!4v1671633227454!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> -->
+
+                    <div class="message">
+                        <form action="mailto:manasacademy2018@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-contents">
+                                <h3>Write to us.</h3>
+                                <div class="form-inner">
+                                    <input type="text" placeholder="Name" name="name" required>
+                                    <input type="email" placeholder="Email" name="email" required>
+                                    <textarea placeholder="Message..." rows="5" name="message" required></textarea>
+                                    <button type="submit" class="btn">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="social-links">
+                <a href="#" class="social facebook">
+                    <img src="{% static 'wb_assets/icon/facebook.png' %}" alt="Facebook icon">
+                </a>
+                <a href="#" class="social twitter">
+                    <img src="{% static 'wb_assets/icon/twitter.png' %}" alt="Twitter icon">
+                </a>
+                <a href="#" class="social linkedin">
+                    <img src="{% static 'wb_assets/icon/linkedin.png' %}" alt="LinkedIn icon">
+                </a>
+                <a href="#" class="social instagram">
+                    <img src="{% static 'wb_assets/icon/instagram.png' %}" alt="Instagram icon">
+                </a>
+            </div>
+
+            <div class="copyright-developer">
+                <p class="copyright">All rights reserved.<br>&copy; 2023 Manas Academy.</p>
+                <p class="developer">Made with &#10084; in India by <a href="https://threedot.in/" target="_blank"
+                        class="developer-site-link">ThreeDot.</a></p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="{% static 'wb_js/app.js' %}"></script>
+
+</body>
+
+</html>
