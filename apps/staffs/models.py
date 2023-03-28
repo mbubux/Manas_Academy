@@ -7,16 +7,16 @@ from django.utils import timezone
 class Staff(models.Model):
     STATUS = [("active", "Active"), ("inactive", "Inactive")]
 
-    GENDER = [("male", "Male"), ("female", "Female")]
+    GENDER = [("male", "Male"), ("female", "Female"), ("Other", "Other")]
 
     current_status = models.CharField(max_length=10, choices=STATUS, default="active")
-    surname = models.CharField(max_length=200)
+    # surname = models.CharField(max_length=200)
     firstname = models.CharField(max_length=200)
+    surname = models.CharField(max_length=200)
   
     gender = models.CharField(max_length=10, choices=GENDER, default="male")
     date_of_birth = models.DateField(default=timezone.now)
-    date_of_admission = models.DateField(default=timezone.now)
-
+    date_of_Joining = models.DateField(default=timezone.now)
     mobile_num_regex = RegexValidator(
         regex="^[0-9]{10,15}$", message="Entered mobile number isn't in a right format!"
     )

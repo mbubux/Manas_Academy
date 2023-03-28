@@ -11,12 +11,22 @@ class Student(models.Model):
 
     GENDER_CHOICES = [("male", "Male"), ("female", "Female")]
 
+    CATEGORY_CHOICE = [("General", "General"),
+                       ("SC", "SC"),
+                       ("ST", "ST"),  
+                       ("OBC", "OBC"),
+                       ("MOBC", "MOBC"), 
+                       ("Others", "Others"),     
+
+                       ]
+
     current_status = models.CharField(
         max_length=10, choices=STATUS_CHOICES, default="active"
     )
     registration_number = models.CharField(max_length=200, unique=True)
-    surname = models.CharField(max_length=200)
+    # surname = models.CharField(max_length=200)
     firstname = models.CharField(max_length=200)
+    surname = models.CharField(max_length=200)
     fathers_name = models.CharField(max_length=200, blank=True)
     mothers_name= models.CharField(max_length=200, blank=True)
 
@@ -33,6 +43,10 @@ class Student(models.Model):
     parent_mobile_number = models.CharField(
         validators=[mobile_num_regex], max_length=13, blank=True
     )
+
+    Students_Category = models.CharField(max_length=15, choices=CATEGORY_CHOICE, default="General")
+
+
     educational_block = models.CharField(max_length=200, default="Bhabanipur Block")
     cluster_name = models.CharField(max_length=200, blank=True)
     
@@ -48,6 +62,11 @@ class Student(models.Model):
     pin=models.CharField(validators=[pin_regex], max_length=6, default=None)
 
     #Bank Details
+    aadhar_no_regex = RegexValidator(
+        regex="^[0-9]{11,13}$", message='please entere a correct Aadhar number !'
+    )
+    aadhaar_number = models.CharField(validators=[aadhar_no_regex], max_length= 15, blank=True)
+    
     name_of_the_bank = models.CharField(max_length=200, blank=True)
     account_no_regex = RegexValidator(
         regex="^[0-9]{10,20}$", message="Entered bank account number isn't in a right format!"

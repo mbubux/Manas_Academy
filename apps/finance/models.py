@@ -54,13 +54,16 @@ class Invoice(models.Model):
 class InvoiceItem(models.Model):
     invoice = models.ForeignKey(Invoice, on_delete=models.CASCADE)
     CHOICES = [
-        ("a", "Admission Fee"),
-        ("b", "Tution Fee"),
-        ("c","Library Fee"),
-        ("d", "Hostel Fee"),
-        ("e", "Sports Fee"),
-        ("f", "Management Fee"),
-        ("g","Others"),
+        ("Admission Fee", "Admission Fee"),
+        ("Tution Fee","Tution Fee"),
+        ("Exam Fee", "Exam Fee"),
+        ("Annual Function", "Annual Function"),
+        ("Festival Fee", "Festival Fee"),
+        ("Library Fee", "Library Fee"),
+        ("School Development", "School Development"),
+        ("ID card, Diary, Belt & Tie", "ID card, Diary, Belt & Tie"),
+        ("Electricity", "Electricity"),
+        ("Others","Others"),
     ]
     description = models.CharField(max_length=200, choices=CHOICES)
     amount = models.IntegerField()
