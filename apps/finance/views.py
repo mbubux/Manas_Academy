@@ -1,9 +1,13 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.shortcuts import redirect, render
+from django.shortcuts import redirect, render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
+from django.template import loader
+from django.template.loader import get_template
+from django.http import HttpResponse
+from django.views import View
 
 from apps.students.models import Student
 
@@ -114,6 +118,42 @@ class ReceiptUpdateView(LoginRequiredMixin, UpdateView):
 class ReceiptDeleteView(LoginRequiredMixin, DeleteView):
     model = Receipt
     success_url = reverse_lazy("invoice-list")
+
+# def ReceiptPrint(request, invoice_no):
+#     template = loader.get_template("receipt_form.html")
+#     return HttpResponse(template.render())
+
+
+# class ReceiptPrint(View):
+#     def get(self, request, pk):
+#         receipt = Receipt.objects.get(pk=pk)
+#         template = loader.get_template('finance/receipt_print.html')
+#         context = {
+#             'receipt': receipt,
+#         }
+#         html = template.render(context)
+#         response = HttpResponse(content_type='application/pdf')
+#         response['Content-Disposition'] = f'filename=receipt_{receipt.pk}.pdf'
+#         pisaStatus = pisa.CreatePDF(html, dest=response)
+#         if pisaStatus.err:
+#             return HttpResponse('We had some errors <pre>' + html + '</pre>')
+#         return response
+    # success_url = reverse_lazy("invoice-list")
+
+def ReceiptPrint(request, pk):
+    invoice = Invoice.objects.all()
+    student = Student.objects.all()
+    receipt = get_object_or_404(Receipt, pk=pk)
+
+    context = {
+        'invoice': invoice,
+        'student': student,
+        'receipt': receipt
+    }
+
+    return render(request, 'finance/receipt_print.html', context)
+
+
 
 
 @login_required

@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    "django.contrib.admin",
     "whitenoise.runserver_nostatic",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -136,6 +137,7 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
 
 
 # Static files (CSS, JavaScript, Images)

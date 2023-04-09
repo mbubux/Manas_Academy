@@ -1,17 +1,28 @@
 {% extends 'base.html' %}
 {% load humanize %}
+{% load static %}
+
 
 {% block content-header %}
+
 <div class="card-header">
-  <div class="card-tools">
-    <a href="#" class="btn btn-tool">Print</a>
-    <a href="{% url 'invoice-update' object.id %}" class="btn btn-tool">
-      <i class="fas fa-edit"></i>
-    </a>
-    <a href="{% url 'invoice-delete' object.id %}" class="btn btn-tool">
-      <i class="fas fa-times"></i>
-    </a>
+  <div class = "row mr-0" style="display: flex; align-items: center; justify-content: space-between;">
+    <div class = "col-sm-8">
+      <h1 style="color: #2bff00;"><strong>Manas Academy</strong></h1>
+    </div>
+    <div>
+    <div class="card-tools mr-0">
+      
+      <button class="btn btn-tool" onclick="window.print()">Print</button>
+      <a href="{% url 'invoice-update' object.id %}" class="btn btn-tool">
+        <i class="fas fa-edit"></i>
+      </a>
+      <a href="{% url 'invoice-delete' object.id %}" class="btn btn-tool">
+        <i class="fas fa-times"></i>
+      </a>
+    </div>
   </div>
+</div>
 </div>
 {% endblock content-header %}
 
@@ -20,21 +31,37 @@
 {% block content %}
 
 <div class="row">
+  
   <div class="col-sm-4">
-    <h3>{{ object }} </h3>
+    {% if object.student_photo %}
+      <img
+        src="{{ object.student_photo.url }}"
+        class="mx-auto d-block rounded-circle" style="width: 120px; height: 120px;">
+    {% else %}
+      <img
+        src="{% static 'dist/img/avatar.png' %}"
+        class="mx-auto d-block rounded-circle" style="width: 120px; height: 120px;">
+    {% endif %}
+    <br>
+    <br>
+
+    <h3><strong>{{ object }}</strong> </h3>
     <h5>{{ object.session }} </h5>
     <h5>{{ object.term }} </h5>
     <h5>{{ object.class_for }} </h5>
     <h6>Status: {{ object.get_status_display }} </h6>
     <hr>
     <div>
-      <h4>Expected Balance: {{ object.balance | intcomma }}</h4>
+      <h4> Expected Balance: {{ object.balance | intcomma }}</h4>
     </div>
   </div>
   <div class="col-sm-8">
     <table class="table table-sm table-bordered">
-      Invoice Breakdown</br>
-      <thead class="thead-light">
+      <strong style="position: relative; left: 40%; transform: translateX(-50%); ">Invoice Breakdown</strong>  
+      
+      <br>
+      
+      <thead class="thead-light" >
         <tr>
           <th style="text-align: center;">S/N</th>
           <th style="text-align: center;">Description</th>
@@ -86,30 +113,46 @@
     </table>
   </div>
 </div>
-
+<br>
 <hr>
 
-<h5>Payment History</h5>
+<div class="d-flex justify-content-between align-items-center" style="padding-bottom: 3px;">
+  <h4>Payment History</h4>
+  <a class="btn btn-success btn-sm ml-auto" href="{% url 'receipt-create' %}?invoice={{ invoice.id }}">Add New Receipt</a>
+</div>
+
 <table class="table table-bordered table-sm">
   <thead class="thead-light">
     <tr>
-      <th>S/N</th>
+      <th>Receipt No</th>
       <th>Amount Paid</th>
       <th>Date Paid</th>
       <th>Comment Paid</th>
+      <th>Action</th>
     </tr>
   </thead>
   <tbody>
     {% for receipt in receipts %}
     <tr>
-      <td>{{ forloop.counter }}</td>
+      <td>{{ receipt.invoice_no }}</td>
       <td>{{ receipt.amount_paid}}</td>
       <td>{{ receipt.date_paid}}</td>
       <td>{{ receipt.comment}}</td>
+      <td><a href="{% url 'receipt-print' pk=receipt.pk %}" onclick="PrintReceipt()">Print</a></td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
+
+
+<!-- <div style="text-align: right; margin-right: 2%; margin-bottom: 5%;">
+  <br>
+  <br>
+  <br>
+    <p>____________________________</p>
+    <p>Authority Signature</p>
+</div> -->
+
 
 
 {% endblock content %}

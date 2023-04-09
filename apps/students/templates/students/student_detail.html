@@ -93,6 +93,7 @@
             <th>Amount Payable</th>
             <th>Amount Paid</th>
             <th>balance</th>
+           
           </tr>
         </thead>
         <tbody>
@@ -102,12 +103,19 @@
               <td>{{payment.total_amount_payable}}</td>
               <td>{{payment.total_amount_paid}}</td>
               <td>{{payment.balance}}</td>
+              
             </tr>
           {% endfor %}
         </tbody>
       </table>
     {% else %}
-        <p>There are no payment history for {{object}}</p>
+    <br>
+        <h5>There are no payment history for {{object}}</h5>
+        <br>
+        <a class="btn btn-primary" href="{% url 'invoice-create' %}"><i
+          class="fas fa-plus"></i> New Invoice</a>
+    
+        
     {% endif %}
 
 

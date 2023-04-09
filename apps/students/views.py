@@ -7,6 +7,7 @@ from django.http import HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
+from django.shortcuts import HttpResponseRedirect, redirect, render
 
 from apps.finance.models import Invoice
 
@@ -25,6 +26,7 @@ class StudentDetailView(LoginRequiredMixin, DetailView):
     def get_context_data(self, **kwargs):
         context = super(StudentDetailView, self).get_context_data(**kwargs)
         context["payments"] = Invoice.objects.filter(student=self.object)
+        
         return context
 
 
@@ -93,3 +95,12 @@ class DownloadCSVViewdownloadcsv(LoginRequiredMixin, View):
         )
 
         return response
+    
+# def dashboard(request):
+#     student=Student.objects.all()
+#     total_students = student.count()
+#     context = {
+#         'student': student,
+#         'total_students': total_students
+#     }
+#     return render(request, 'index.html', context)

@@ -1,4 +1,5 @@
 from django.forms import inlineformset_factory, modelformset_factory
+from django import forms
 
 from .models import Invoice, InvoiceItem, Receipt
 
@@ -15,3 +16,8 @@ InvoiceReceiptFormSet = inlineformset_factory(
 )
 
 Invoices = modelformset_factory(Invoice, exclude=(), extra=4)
+
+class InvoiceForm(forms.ModelForm):
+    class Meta:
+        model = Invoice
+        fields = '__all__'

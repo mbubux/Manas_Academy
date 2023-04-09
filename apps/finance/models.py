@@ -2,7 +2,7 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
-from apps.corecode.models import AcademicSession, AcademicTerm, StudentClass
+from apps.corecode.models import AcademicSession, AcademicTerm, StudentClass, fee_type
 from apps.students.models import Student
 
 
@@ -53,27 +53,29 @@ class Invoice(models.Model):
 
 class InvoiceItem(models.Model):
     invoice = models.ForeignKey(Invoice, on_delete=models.CASCADE)
-    CHOICES = [
-        ("Admission Fee", "Admission Fee"),
-        ("Tution Fee","Tution Fee"),
-        ("Exam Fee", "Exam Fee"),
-        ("Annual Function", "Annual Function"),
-        ("Festival Fee", "Festival Fee"),
-        ("Library Fee", "Library Fee"),
-        ("School Development", "School Development"),
-        ("ID card, Diary, Belt & Tie", "ID card, Diary, Belt & Tie"),
-        ("Electricity", "Electricity"),
-        ("Others","Others"),
-    ]
-    description = models.CharField(max_length=200, choices=CHOICES)
+    description = models.ForeignKey(fee_type, on_delete=models.CASCADE)
     amount = models.IntegerField()
 
+
+
+def increment_invoice_number():
+    last_invoice = Receipt.objects.all().order_by('id').last()
+    if not last_invoice:
+        return 'MA00001'
+    invoice_no = last_invoice.invoice_no
+    invoice_int = int(invoice_no.split('MA')[-1])
+    width = 5
+    new_invoice_int = invoice_int + 1
+    formatted = (width - len(str(new_invoice_int))) * "0" + str(new_invoice_int)
+    new_invoice_no = 'MA' + str(formatted)
+    return new_invoice_no 
 
 class Receipt(models.Model):
     invoice = models.ForeignKey(Invoice, on_delete=models.CASCADE)
     amount_paid = models.IntegerField()
     date_paid = models.DateField(default=timezone.now)
     comment = models.CharField(max_length=200, blank=True)
+    invoice_no = models.CharField(max_length=500, default=increment_invoice_number )
 
     def __str__(self):
         return f"Receipt on {self.date_paid}"

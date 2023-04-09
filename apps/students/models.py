@@ -6,6 +6,21 @@ from django.utils import timezone
 from apps.corecode.models import StudentClass
 
 
+
+
+def increment_reg_number():
+    last_reg = Student.objects.all().order_by('id').last()
+    if not last_reg:
+        return 'MAK0200'
+    registration_number = last_reg.registration_number
+    reg_int = int(registration_number.split('MAK')[-1])
+    width = 4
+    new_reg_int = reg_int + 1
+    formatted = (width - len(str(new_reg_int))) * "0" + str(new_reg_int)
+    new_reg_no = 'MAK' + str(formatted)
+    return new_reg_no  
+
+
 class Student(models.Model):
     STATUS_CHOICES = [("active", "Active"), ("inactive", "Inactive")]
 
@@ -17,13 +32,12 @@ class Student(models.Model):
                        ("OBC", "OBC"),
                        ("MOBC", "MOBC"), 
                        ("Others", "Others"),     
-
                        ]
-
     current_status = models.CharField(
         max_length=10, choices=STATUS_CHOICES, default="active"
     )
-    registration_number = models.CharField(max_length=200, unique=True)
+    registration_number = models.CharField(max_length = 500, default = increment_reg_number, null = True, blank = True)
+    # registration_number = models.CharField(max_length=200, unique=True)
     # surname = models.CharField(max_length=200)
     firstname = models.CharField(max_length=200)
     surname = models.CharField(max_length=200)

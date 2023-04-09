@@ -62,19 +62,11 @@ class StudentClass(models.Model):
     def __str__(self):
         return self.name
 
+class fee_type(models.Model):
+     name = models.CharField(max_length=200, unique=True)
 
-# class admissionFee(models.Model):
-#     Student_class =models.ForeignKey(StudentClass, on_delete= models.CASCADE)
-#     Admission_fees = models.IntegerField(unique= False)
-#     date = models.DateField(auto_now_add=True)
+     class Meta:
+        ordering = ["name"]
 
-#     def __str__(self):
-#         return self.Admission_fees
-    
-# class monthlyFee(models.Model):
-#     Student_class = models.ForeignKey(StudentClass, on_delete= models.CASCADE)
-#     Monthly_fees = models.IntegerField(unique= False)
-#     date = models.DateField(auto_now_add=True)
-
-#     def __str__(self):
-#         return (self.Monthly_fees)
+     def __str__(self):
+        return self.name

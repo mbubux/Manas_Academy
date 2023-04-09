@@ -3,6 +3,8 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
+from apps.corecode.models import StudentClass
+
 
 class Staff(models.Model):
     STATUS = [("active", "Active"), ("inactive", "Inactive")]
@@ -32,3 +34,9 @@ class Staff(models.Model):
 
     def get_absolute_url(self):
         return reverse("staff-detail", kwargs={"pk": self.pk})
+
+
+
+current_class = models.ForeignKey(
+        StudentClass, on_delete=models.SET_NULL, blank=True, null=True
+    )
