@@ -20,10 +20,10 @@ from .views import (
     TermDeleteView,
     TermListView,
     TermUpdateView,
-    FeeTypeListView,
-    FeeTypeCreateView,
-    FeeTypeUpdateView,
-    FeeTypeDeleteView,
+    # FeeTypeListView,
+    # FeeTypeCreateView,
+    # FeeTypeUpdateView,
+    # FeeTypeDeleteView,
 
 
 )
@@ -60,10 +60,10 @@ urlpatterns = [
     path("subject/<int:pk>/update/", SubjectUpdateView.as_view(), name="subject-update",),
     path("subject/<int:pk>/delete/", SubjectDeleteView.as_view(), name="subject-delete",),
 
-    path("fee_type/list/", FeeTypeListView.as_view(), name="FeeType"),
-    path("fee_type/create/", FeeTypeCreateView.as_view(), name="FeeType-create"),
-    path("fee_type/<int:pk>/update/", FeeTypeUpdateView.as_view(), name="FeeType-update",),
-    path("fee_type/<int:pk>/delete/", FeeTypeDeleteView.as_view(), name="FeeType-delete",),
+    # path("fee_type/list/", FeeTypeListView.as_view(), name="FeeType"),
+    # path("fee_type/create/", FeeTypeCreateView.as_view(), name="FeeType-create"),
+    # path("fee_type/<int:pk>/update/", FeeTypeUpdateView.as_view(), name="FeeType-update",),
+    # path("fee_type/<int:pk>/delete/", FeeTypeDeleteView.as_view(), name="FeeType-delete",),
 
 
     

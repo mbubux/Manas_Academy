@@ -7,7 +7,7 @@ from .models import (
     SiteConfig,
     StudentClass,
     Subject,
-    fee_type, 
+   
   
 
 )
@@ -53,12 +53,12 @@ class StudentClassForm(ModelForm):
         model = StudentClass
         fields = ["name"]
 
-class fee_typeForm(ModelForm):
-    prefix = "Fee_Type"
+# class fee_typeForm(ModelForm):
+#     prefix = "Fee_Type"
 
-    class Meta:
-        model = fee_type
-        fields = ["name"]
+#     class Meta:
+#         model = fee_type
+#         fields = ["name"]
 
 
 class CurrentSessionForm(forms.Form):

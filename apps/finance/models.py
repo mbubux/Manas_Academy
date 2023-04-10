@@ -2,7 +2,7 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
-from apps.corecode.models import AcademicSession, AcademicTerm, StudentClass, fee_type
+from apps.corecode.models import AcademicSession, AcademicTerm, StudentClass
 from apps.students.models import Student
 
 
@@ -53,7 +53,19 @@ class Invoice(models.Model):
 
 class InvoiceItem(models.Model):
     invoice = models.ForeignKey(Invoice, on_delete=models.CASCADE)
-    description = models.ForeignKey(fee_type, on_delete=models.CASCADE)
+    # description = models.ForeignKey(fee_type, on_delete=models.CASCADE)
+    CHOICES = [
+        ("Admission Fee", "Admission Fee"),
+		("Exam Fee","Exam Fee"),
+		("Annual Function","Annual Function"),
+		("Festival Fee","Festival Fee"),
+        ("Library Fee","Library Fee"),
+		("Electricity","Electricity"),
+		("School Development","School Development"),
+		("Id card, Diary, Belt & Tie","Id card, Diary, Belt & Tie"),
+		("Tution Fee", "Tution Fee"),
+    ]
+    description = models.CharField(max_length=200, choices=CHOICES)
     amount = models.IntegerField()
 
 

@@ -16,7 +16,7 @@ from .forms import (
     SiteConfigForm,
     StudentClassForm,
     SubjectForm,
-    fee_typeForm,
+    
 )
 from .models import (
     AcademicSession,
@@ -24,7 +24,7 @@ from .models import (
     SiteConfig,
     StudentClass,
     Subject,
-    fee_type,
+    
     
 )
 
@@ -280,42 +280,42 @@ class CurrentSessionAndTermView(LoginRequiredMixin, View):
     #VIEWS FRO FEE TYPPE AND FEES
 
     
-class FeeTypeListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
-    model = fee_type
-    template_name = "corecode/fee_type_list.html"
+# class FeeTypeListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
+#     model = fee_type
+#     template_name = "corecode/fee_type_list.html"
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["form"] = fee_typeForm()
-        return context
-
-
-class FeeTypeCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
-    model = fee_type
-    form_class = fee_typeForm
-    template_name = "corecode/mgt_form.html"
-    success_url = reverse_lazy("FeeType")
-    success_message = "New Fees Type successfully added"
+#     def get_context_data(self, **kwargs):
+#         context = super().get_context_data(**kwargs)
+#         context["form"] = fee_typeForm()
+#         return context
 
 
-class FeeTypeUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
-    model = fee_type
-    fields = ["name"]
-    success_url = reverse_lazy("FeeType")
-    success_message = "Fees Type successfully updated."
-    template_name = "corecode/mgt_form.html"
+# class FeeTypeCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+#     model = fee_type
+#     form_class = fee_typeForm
+#     template_name = "corecode/mgt_form.html"
+#     success_url = reverse_lazy("FeeType")
+#     success_message = "New Fees Type successfully added"
 
 
-class FeeTypeDeleteView(LoginRequiredMixin, DeleteView):
-    model = fee_type
-    success_url = reverse_lazy("FeeType")
-    template_name = "corecode/core_confirm_delete.html"
-    success_message = "The subject {} has been deleted with all its attached content"
+# class FeeTypeUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+#     model = fee_type
+#     fields = ["name"]
+#     success_url = reverse_lazy("FeeType")
+#     success_message = "Fees Type successfully updated."
+#     template_name = "corecode/mgt_form.html"
 
-    def delete(self, request, *args, **kwargs):
-        obj = self.get_object()
-        messages.success(self.request, self.success_message.format(obj.name))
-        return super(FeeTypeDeleteView, self).delete(request, *args, **kwargs)
+
+# class FeeTypeDeleteView(LoginRequiredMixin, DeleteView):
+#     model = fee_type
+#     success_url = reverse_lazy("FeeType")
+#     template_name = "corecode/core_confirm_delete.html"
+#     success_message = "The subject {} has been deleted with all its attached content"
+
+#     def delete(self, request, *args, **kwargs):
+#         obj = self.get_object()
+#         messages.success(self.request, self.success_message.format(obj.name))
+#         return super(FeeTypeDeleteView, self).delete(request, *args, **kwargs)
 
 def dashboard(request):
     student=Student.objects.all()

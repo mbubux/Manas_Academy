@@ -108,3 +108,5 @@ INFO 2023-04-10 02:32:25,848 "GET /static/admin/img/icon-changelink.svg HTTP/1.1
 INFO 2023-04-10 02:32:25,881 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
 INFO 2023-04-10 02:32:25,913 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
 INFO 2023-04-10 02:32:25,942 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2023-04-10 15:10:39,596 Watching for file changes with StatReloader
+INFO 2023-04-10 15:12:00,340 Watching for file changes with StatReloader
