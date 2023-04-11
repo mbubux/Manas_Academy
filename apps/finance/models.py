@@ -87,7 +87,7 @@ class Receipt(models.Model):
     amount_paid = models.IntegerField()
     date_paid = models.DateField(default=timezone.now)
     comment = models.CharField(max_length=200, blank=True)
-    invoice_no = models.CharField(max_length=500, default=increment_invoice_number )
+    invoice_no = models.CharField(max_length=10, default=increment_invoice_number )
 
     def __str__(self):
         return f"Receipt on {self.date_paid}"

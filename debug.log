@@ -110,3 +110,820 @@ INFO 2023-04-10 02:32:25,913 "GET /static/admin/fonts/Roboto-Regular-webfont.wof
 INFO 2023-04-10 02:32:25,942 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
 INFO 2023-04-10 15:10:39,596 Watching for file changes with StatReloader
 INFO 2023-04-10 15:12:00,340 Watching for file changes with StatReloader
+INFO 2023-04-11 05:35:37,708 Watching for file changes with StatReloader
+INFO 2023-04-11 05:36:52,262 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\school_app\settings.py changed, reloading.
+INFO 2023-04-11 05:36:53,668 Watching for file changes with StatReloader
+INFO 2023-04-11 05:36:56,230 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\school_app\settings.py changed, reloading.
+INFO 2023-04-11 05:36:58,006 Watching for file changes with StatReloader
+INFO 2023-04-11 05:37:28,776 "GET / HTTP/1.1" 200 23861
+INFO 2023-04-11 05:37:28,865 "GET /static/wb_css/style.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,914 "GET /static/wb_js/app.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,922 "GET /static/wb_assets/icon/manas_logo.png HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,924 "GET /static/wb_assets/icon/play_icon.svg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,932 "GET /static/wb_assets/image/1.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,946 "GET /static/wb_assets/image/2.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,946 "GET /static/wb_assets/icon/pdf_icon.svg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,949 "GET /static/wb_assets/image/3.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,955 "GET /static/wb_assets/image/4.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,955 "GET /static/wb_assets/icon/download.svg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,956 "GET /static/wb_assets/image/5.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,957 "GET /static/wb_assets/icon/pause_icon.svg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,968 "GET /static/wb_assets/image/6.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,969 "GET /static/wb_assets/image/7.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,973 "GET /static/wb_assets/image/8.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,974 "GET /static/wb_assets/image/hostel.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,988 "GET /static/wb_assets/image/cultural.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,993 "GET /static/wb_assets/image/sports.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:28,996 "GET /static/wb_assets/image/school_bus.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,000 "GET /static/wb_assets/icon/facebook.png HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,005 "GET /static/wb_assets/icon/twitter.png HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,010 "GET /static/wb_assets/icon/linkedin.png HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,013 "GET /static/wb_assets/icon/instagram.png HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,140 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,140 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,393 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,396 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:29,456 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 206 28866
+INFO 2023-04-11 05:37:29,460 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 206 3446
+WARNING 2023-04-11 05:37:29,882 Not Found: /favicon.ico
+WARNING 2023-04-11 05:37:29,882 "GET /favicon.ico HTTP/1.1" 404 4400
+INFO 2023-04-11 05:37:30,511 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 206 12939458
+INFO 2023-04-11 05:37:59,393 "GET /admin/clearcache/ HTTP/1.1" 302 0
+INFO 2023-04-11 05:37:59,459 "GET /accounts/login/?next=/admin/clearcache/ HTTP/1.1" 200 3988
+INFO 2023-04-11 05:37:59,503 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,504 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,510 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,538 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,538 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,540 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,543 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,558 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,560 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,558 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,577 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,587 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,588 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 05:37:59,670 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:02,179 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-04-11 05:38:02,324 "GET /admin/clearcache/ HTTP/1.1" 200 1947
+INFO 2023-04-11 05:38:02,361 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:02,378 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:02,392 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:02,410 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:02,486 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:02,491 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:02,501 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,128 "POST /admin/clearcache/ HTTP/1.1" 302 0
+INFO 2023-04-11 05:38:05,154 "GET /admin/clearcache/ HTTP/1.1" 200 2099
+INFO 2023-04-11 05:38:05,190 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,208 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,223 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,238 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,275 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,280 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,295 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 05:38:05,331 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-04-11 06:39:20,970 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\apps\finance\models.py changed, reloading.
+INFO 2023-04-11 06:39:22,763 Watching for file changes with StatReloader
+INFO 2023-04-11 06:39:31,087 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\apps\finance\models.py changed, reloading.
+INFO 2023-04-11 06:39:32,824 Watching for file changes with StatReloader
+INFO 2023-04-11 06:53:14,466 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\apps\finance\admin.py changed, reloading.
+INFO 2023-04-11 06:53:15,863 Watching for file changes with StatReloader
+INFO 2023-04-11 06:54:16,278 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\apps\finance\admin.py changed, reloading.
+INFO 2023-04-11 06:54:17,776 Watching for file changes with StatReloader
+INFO 2023-04-11 06:54:36,164 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\apps\finance\admin.py changed, reloading.
+INFO 2023-04-11 06:54:37,639 Watching for file changes with StatReloader
+INFO 2023-04-11 06:54:56,142 "GET /admin/ HTTP/1.1" 200 4602
+INFO 2023-04-11 06:54:56,191 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,215 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,238 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,249 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,259 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,269 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,295 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,350 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,368 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,404 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,467 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-04-11 06:54:56,483 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:00,997 "GET /admin/finance/receipt/ HTTP/1.1" 200 5405
+INFO 2023-04-11 06:55:01,053 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,088 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,121 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,156 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,199 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,228 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2023-04-11 06:55:01,250 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-04-11 06:55:01,274 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+INFO 2023-04-11 06:55:01,289 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2023-04-11 06:55:01,331 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2023-04-11 06:55:01,355 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8985
+INFO 2023-04-11 06:55:01,379 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-04-11 06:55:01,386 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-04-11 06:55:01,431 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-04-11 06:55:01,447 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,473 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-04-11 06:55:01,524 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,555 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,591 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-04-11 06:55:01,616 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+INFO 2023-04-11 06:55:01,639 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:01,652 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,379 "GET /admin/finance/receipt/add/ HTTP/1.1" 200 8447
+INFO 2023-04-11 06:55:09,459 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,499 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,529 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,543 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,566 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2023-04-11 06:55:09,592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-04-11 06:55:09,642 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,677 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,704 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,718 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,738 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-04-11 06:55:09,753 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,773 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,799 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,816 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,835 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2023-04-11 06:55:09,848 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,866 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-04-11 06:55:09,893 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+INFO 2023-04-11 06:55:09,955 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:09,991 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:10,025 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:10,038 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:10,061 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-04-11 06:55:10,077 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-04-11 06:55:10,133 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-04-11 12:06:40,257 "GET /admin/finance/receipt/add/ HTTP/1.1" 302 0
+INFO 2023-04-11 12:06:40,317 "GET /admin/login/?next=/admin/finance/receipt/add/ HTTP/1.1" 200 2258
+INFO 2023-04-11 12:06:40,345 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:40,348 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:40,363 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:40,368 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:40,371 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:40,374 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:40,381 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-04-11 12:06:40,401 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:40,402 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,585 "POST /admin/login/?next=/admin/finance/receipt/add/ HTTP/1.1" 302 0
+INFO 2023-04-11 12:06:42,651 "GET /admin/finance/receipt/add/ HTTP/1.1" 200 8447
+INFO 2023-04-11 12:06:42,711 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,744 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,757 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,773 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,788 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,807 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,821 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,837 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,853 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,888 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,919 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,954 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:42,982 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,013 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,030 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,046 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-04-11 12:06:43,062 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,089 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,107 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,142 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,167 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,198 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,215 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,232 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,247 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:43,270 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,678 "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2023-04-11 12:06:58,698 "GET / HTTP/1.1" 200 23861
+INFO 2023-04-11 12:06:58,715 "GET /static/wb_css/style.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,732 "GET /static/wb_js/app.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,748 "GET /static/wb_assets/icon/manas_logo.png HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,758 "GET /static/wb_assets/icon/play_icon.svg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,760 "GET /static/wb_assets/icon/pdf_icon.svg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,762 "GET /static/wb_assets/icon/pause_icon.svg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,767 "GET /static/wb_assets/icon/download.svg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,768 "GET /static/wb_assets/image/1.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,774 "GET /static/wb_assets/image/3.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,787 "GET /static/wb_assets/image/5.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,792 "GET /static/wb_assets/image/4.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,794 "GET /static/wb_assets/image/2.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,795 "GET /static/wb_assets/image/6.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,813 "GET /static/wb_assets/image/7.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,819 "GET /static/wb_assets/image/cultural.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,821 "GET /static/wb_assets/image/8.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,824 "GET /static/wb_assets/image/hostel.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,834 "GET /static/wb_assets/image/sports.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,845 "GET /static/wb_assets/image/school_bus.jpg HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,848 "GET /static/wb_assets/icon/facebook.png HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,860 "GET /static/wb_assets/icon/twitter.png HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,864 "GET /static/wb_assets/icon/linkedin.png HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,874 "GET /static/wb_assets/icon/instagram.png HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,965 - Broken pipe from ('127.0.0.1', 52706)
+INFO 2023-04-11 12:06:58,974 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:58,975 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:59,007 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:59,018 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 12:06:59,198 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 206 2748416
+INFO 2023-04-11 12:07:00,284 "GET /corecode/ HTTP/1.1" 302 0
+INFO 2023-04-11 12:07:00,311 "GET /accounts/login/?next=/corecode/ HTTP/1.1" 200 3980
+INFO 2023-04-11 12:07:00,351 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,353 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,364 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,383 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,388 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,395 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,396 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,399 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,415 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,418 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,422 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,423 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,426 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:00,482 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 12:07:02,507 "POST /accounts/login/ HTTP/1.1" 302 0
+ERROR 2023-04-11 12:07:02,776 Internal Server Error: /corecode/
+Traceback (most recent call last):
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rakib\OneDrive\Desktop\ManasAcademy\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'FeeType' not found. 'FeeType' is not a valid view function or pattern name.
+ERROR 2023-04-11 12:07:02,784 "GET /corecode/ HTTP/1.1" 500 145480
+INFO 2023-04-11 12:47:31,934 Watching for file changes with StatReloader
+INFO 2023-04-11 12:47:43,728 "GET / HTTP/1.1" 200 23861
+INFO 2023-04-11 12:47:43,931 "GET /static/wb_css/style.css HTTP/1.1" 200 80689
+INFO 2023-04-11 12:47:43,947 "GET /static/wb_assets/icon/play_icon.svg HTTP/1.1" 200 1030
+INFO 2023-04-11 12:47:43,964 "GET /static/wb_assets/icon/manas_logo.png HTTP/1.1" 200 397551
+INFO 2023-04-11 12:47:43,974 "GET /static/wb_assets/icon/pause_icon.svg HTTP/1.1" 200 540
+INFO 2023-04-11 12:47:43,985 "GET /static/wb_js/app.js HTTP/1.1" 200 5611
+INFO 2023-04-11 12:47:43,993 "GET /static/wb_assets/icon/pdf_icon.svg HTTP/1.1" 200 5386
+INFO 2023-04-11 12:47:44,001 "GET /static/wb_assets/icon/download.svg HTTP/1.1" 200 220
+INFO 2023-04-11 12:47:44,025 "GET /static/wb_assets/image/1.jpg HTTP/1.1" 200 668760
+INFO 2023-04-11 12:47:44,044 "GET /static/wb_assets/image/5.jpg HTTP/1.1" 200 168844
+INFO 2023-04-11 12:47:44,059 "GET /static/wb_assets/image/6.jpg HTTP/1.1" 200 111841
+INFO 2023-04-11 12:47:44,068 "GET /static/wb_assets/image/4.jpg HTTP/1.1" 200 235014
+INFO 2023-04-11 12:47:44,071 "GET /static/wb_assets/image/2.jpg HTTP/1.1" 200 604102
+INFO 2023-04-11 12:47:44,073 "GET /static/wb_assets/image/3.jpg HTTP/1.1" 200 326277
+INFO 2023-04-11 12:47:44,102 "GET /static/wb_assets/image/8.jpg HTTP/1.1" 200 180325
+INFO 2023-04-11 12:47:44,125 "GET /static/wb_assets/image/7.jpg HTTP/1.1" 200 863628
+INFO 2023-04-11 12:47:44,147 "GET /static/wb_assets/image/hostel.jpg HTTP/1.1" 200 604102
+INFO 2023-04-11 12:47:44,173 "GET /static/wb_assets/image/sports.jpg HTTP/1.1" 200 180325
+INFO 2023-04-11 12:47:44,174 "GET /static/wb_assets/image/cultural.jpg HTTP/1.1" 200 413531
+INFO 2023-04-11 12:47:44,191 "GET /static/wb_assets/icon/facebook.png HTTP/1.1" 200 10793
+INFO 2023-04-11 12:47:44,209 "GET /static/wb_assets/image/school_bus.jpg HTTP/1.1" 200 419420
+INFO 2023-04-11 12:47:44,214 "GET /static/wb_assets/icon/twitter.png HTTP/1.1" 200 14416
+INFO 2023-04-11 12:47:44,227 "GET /static/wb_assets/icon/linkedin.png HTTP/1.1" 200 12857
+INFO 2023-04-11 12:47:44,240 - Broken pipe from ('127.0.0.1', 53006)
+INFO 2023-04-11 12:47:44,243 "GET /static/wb_assets/icon/instagram.png HTTP/1.1" 200 16887
+INFO 2023-04-11 12:47:44,252 - Broken pipe from ('127.0.0.1', 53010)
+INFO 2023-04-11 12:47:44,256 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 206 3446
+INFO 2023-04-11 12:47:44,259 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 206 28866
+INFO 2023-04-11 12:47:44,263 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:44,269 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:44,586 - Broken pipe from ('127.0.0.1', 53011)
+INFO 2023-04-11 12:47:45,139 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 206 15945728
+INFO 2023-04-11 12:47:47,375 "GET /corecode/ HTTP/1.1" 302 0
+INFO 2023-04-11 12:47:47,419 "GET /accounts/login/?next=/corecode/ HTTP/1.1" 200 3980
+INFO 2023-04-11 12:47:47,499 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-04-11 12:47:47,521 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58587
+INFO 2023-04-11 12:47:47,543 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2023-04-11 12:47:47,546 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-04-11 12:47:47,584 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-04-11 12:47:47,708 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-04-11 12:47:48,163 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-04-11 12:47:48,184 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-04-11 12:47:48,193 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-04-11 12:47:48,219 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-04-11 12:47:48,220 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-04-11 12:47:48,234 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2023-04-11 12:47:48,252 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-04-11 12:47:48,254 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2023-04-11 12:47:54,980 "POST /accounts/login/ HTTP/1.1" 200 4105
+INFO 2023-04-11 12:47:54,998 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,013 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,014 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,027 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,031 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,033 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,034 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,043 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,045 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,048 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,054 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,057 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2023-04-11 12:47:55,059 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,257 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-04-11 12:48:03,316 "GET /corecode/ HTTP/1.1" 200 9463
+INFO 2023-04-11 12:48:03,349 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,366 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,383 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,412 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,433 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,449 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,477 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,507 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,525 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,535 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,557 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-04-11 12:48:03,577 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:03,744 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-04-11 12:48:04,170 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-04-11 12:48:05,472 "GET /student/list HTTP/1.1" 200 10118
+INFO 2023-04-11 12:48:05,507 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,527 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,562 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,592 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,609 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,629 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,647 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,674 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,717 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,740 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,767 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,790 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:05,827 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:07,984 "GET /finance/list/ HTTP/1.1" 200 10131
+INFO 2023-04-11 12:48:08,032 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,046 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,076 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,091 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,107 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,122 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,138 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,170 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,187 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,205 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,228 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,234 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:08,250 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,495 "GET /result/create/ HTTP/1.1" 200 10558
+INFO 2023-04-11 12:48:09,529 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,547 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,564 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,581 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,622 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,646 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,670 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,689 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,713 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,737 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,762 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,787 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:09,811 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:11,644 "GET /result/edit-results/ HTTP/1.1" 200 10276
+INFO 2023-04-11 12:48:11,737 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:11,796 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:11,881 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:11,950 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,032 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,086 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,198 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,234 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,243 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,262 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,297 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,350 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:12,371 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:13,793 "GET /result/view/all HTTP/1.1" 200 9006
+INFO 2023-04-11 12:48:13,859 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:13,877 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:13,892 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:13,909 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:13,925 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:13,938 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:13,971 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:14,000 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:14,033 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:14,064 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:14,098 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:14,125 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 12:48:14,167 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 13:08:17,970 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\apps\finance\admin.py changed, reloading.
+INFO 2023-04-11 13:08:19,688 Watching for file changes with StatReloader
+INFO 2023-04-11 13:08:21,670 C:\Users\rakib\OneDrive\Desktop\ManasAcademy\Manas_Academy\apps\finance\admin.py changed, reloading.
+INFO 2023-04-11 13:08:23,174 Watching for file changes with StatReloader
+INFO 2023-04-11 14:40:46,743 "GET / HTTP/1.1" 200 23861
+INFO 2023-04-11 14:40:47,148 "GET /static/wb_css/style.css HTTP/1.1" 200 80689
+INFO 2023-04-11 14:40:47,260 "GET /static/wb_js/app.js HTTP/1.1" 200 5611
+INFO 2023-04-11 14:40:47,278 "GET /static/wb_assets/icon/manas_logo.png HTTP/1.1" 200 397551
+INFO 2023-04-11 14:40:47,369 "GET /static/wb_assets/icon/play_icon.svg HTTP/1.1" 200 1030
+INFO 2023-04-11 14:40:47,444 "GET /static/wb_assets/icon/pause_icon.svg HTTP/1.1" 200 540
+INFO 2023-04-11 14:40:47,487 "GET /static/wb_assets/icon/download.svg HTTP/1.1" 200 220
+INFO 2023-04-11 14:40:47,489 "GET /static/wb_assets/icon/pdf_icon.svg HTTP/1.1" 200 5386
+INFO 2023-04-11 14:40:47,517 "GET /static/wb_assets/image/2.jpg HTTP/1.1" 200 604102
+INFO 2023-04-11 14:40:47,518 "GET /static/wb_assets/image/1.jpg HTTP/1.1" 200 668760
+INFO 2023-04-11 14:40:47,539 "GET /static/wb_assets/image/3.jpg HTTP/1.1" 200 326277
+INFO 2023-04-11 14:40:47,552 "GET /static/wb_assets/image/4.jpg HTTP/1.1" 200 235014
+INFO 2023-04-11 14:40:47,561 "GET /static/wb_assets/image/5.jpg HTTP/1.1" 200 168844
+INFO 2023-04-11 14:40:47,572 "GET /static/wb_assets/image/6.jpg HTTP/1.1" 200 111841
+INFO 2023-04-11 14:40:47,584 "GET /static/wb_assets/image/7.jpg HTTP/1.1" 200 863628
+INFO 2023-04-11 14:40:48,286 "GET /static/wb_assets/image/8.jpg HTTP/1.1" 200 180325
+INFO 2023-04-11 14:40:48,312 "GET /static/wb_assets/image/hostel.jpg HTTP/1.1" 200 604102
+INFO 2023-04-11 14:40:48,328 "GET /static/wb_assets/icon/linkedin.png HTTP/1.1" 200 12857
+INFO 2023-04-11 14:40:48,419 "GET /static/wb_assets/icon/twitter.png HTTP/1.1" 200 14416
+INFO 2023-04-11 14:40:48,449 "GET /static/wb_assets/icon/instagram.png HTTP/1.1" 200 16887
+INFO 2023-04-11 14:40:48,487 - Broken pipe from ('127.0.0.1', 53684)
+INFO 2023-04-11 14:40:48,488 - Broken pipe from ('127.0.0.1', 53683)
+INFO 2023-04-11 14:40:48,811 "GET /static/wb_assets/image/cultural.jpg HTTP/1.1" 200 413531
+INFO 2023-04-11 14:40:48,915 "GET /static/wb_assets/image/sports.jpg HTTP/1.1" 200 180325
+INFO 2023-04-11 14:40:48,991 "GET /static/wb_assets/image/school_bus.jpg HTTP/1.1" 200 419420
+INFO 2023-04-11 14:40:49,020 "GET /static/wb_assets/icon/facebook.png HTTP/1.1" 200 10793
+INFO 2023-04-11 14:40:49,048 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 206 3446
+INFO 2023-04-11 14:40:49,075 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:49,160 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 206 28866
+INFO 2023-04-11 14:40:49,368 - Broken pipe from ('127.0.0.1', 53696)
+WARNING 2023-04-11 14:40:49,409 Not Found: /favicon.ico
+WARNING 2023-04-11 14:40:49,409 "GET /favicon.ico HTTP/1.1" 404 4400
+INFO 2023-04-11 14:40:50,709 "GET /static/wb_assets/video/overview_video.mp4 HTTP/1.1" 206 15663104
+INFO 2023-04-11 14:40:50,709 - Broken pipe from ('127.0.0.1', 53695)
+INFO 2023-04-11 14:40:51,617 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,633 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,647 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,655 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,681 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,687 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,695 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,703 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,711 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,717 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:40:51,747 "GET /static/wb_assets/video/about.mp4 HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:00,149 "GET /corecode/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:41:00,198 "GET /accounts/login/?next=/corecode/ HTTP/1.1" 200 3980
+INFO 2023-04-11 14:41:00,254 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-04-11 14:41:00,260 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58587
+INFO 2023-04-11 14:41:00,269 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-04-11 14:41:00,278 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-04-11 14:41:00,287 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-04-11 14:41:00,305 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-04-11 14:41:00,307 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-04-11 14:41:00,316 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-04-11 14:41:00,316 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-04-11 14:41:00,327 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2023-04-11 14:41:00,337 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-04-11 14:41:00,355 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2023-04-11 14:41:00,379 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-04-11 14:41:00,603 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2023-04-11 14:41:04,579 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:41:04,607 "GET /corecode/ HTTP/1.1" 200 9463
+INFO 2023-04-11 14:41:04,682 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,695 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,714 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,732 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,748 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,762 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,800 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,832 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,860 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,926 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-04-11 14:41:04,938 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,969 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:04,990 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-04-11 14:41:05,072 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-04-11 14:41:57,202 "GET /student/list HTTP/1.1" 200 10118
+INFO 2023-04-11 14:41:57,265 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,295 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,310 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,325 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,339 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,359 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,374 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,392 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,413 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,425 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,440 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,455 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:41:57,487 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,175 "GET /student/create/ HTTP/1.1" 200 17978
+INFO 2023-04-11 14:42:00,245 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,270 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,291 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,305 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,339 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,355 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,371 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,403 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,422 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,488 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,497 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,516 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:00,529 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,079 "GET /corecode/session/list/ HTTP/1.1" 200 11797
+INFO 2023-04-11 14:42:35,296 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,323 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,329 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,347 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,360 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,370 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,375 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,439 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,454 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,580 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,614 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,627 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,644 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,674 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:35,686 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,512 "GET /corecode/term/list/ HTTP/1.1" 200 11760
+INFO 2023-04-11 14:42:36,707 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,734 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,740 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,754 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,774 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,787 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,795 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:36,815 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,006 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,035 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,061 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,083 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,105 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,115 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,135 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,727 "GET /corecode/subject/list/ HTTP/1.1" 200 11004
+INFO 2023-04-11 14:42:37,984 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:37,998 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,018 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,029 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,060 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,080 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,091 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,107 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,315 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,343 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,358 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,392 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,409 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,439 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:38,451 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,051 "GET /corecode/class/list/ HTTP/1.1" 200 11033
+INFO 2023-04-11 14:42:39,328 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,350 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,362 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,374 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,396 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,428 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,443 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,518 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,648 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,701 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,746 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,762 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,780 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,804 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:39,826 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,118 "POST /corecode/subject/create/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:42:58,150 "GET /corecode/subject/list/ HTTP/1.1" 200 11452
+INFO 2023-04-11 14:42:58,204 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,234 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,249 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,262 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,285 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,303 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,330 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,344 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,377 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,394 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,412 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,428 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,465 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,479 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:42:58,493 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,026 "POST /corecode/subject/create/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:43:05,055 "GET /corecode/subject/list/ HTTP/1.1" 200 11756
+INFO 2023-04-11 14:43:05,136 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,153 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,184 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,202 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,231 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,245 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,265 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,294 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,312 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,327 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,348 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,360 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,372 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,389 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:05,406 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,046 "POST /corecode/class/create/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:43:15,077 "GET /corecode/class/list/ HTTP/1.1" 200 11475
+INFO 2023-04-11 14:43:15,148 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,166 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,180 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,193 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,207 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,212 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,226 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,247 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,261 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,276 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,292 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,308 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,332 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,377 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:15,388 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,061 "POST /corecode/class/create/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:43:21,090 "GET /corecode/class/list/ HTTP/1.1" 200 11774
+INFO 2023-04-11 14:43:21,161 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,193 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,212 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,225 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,242 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,274 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,289 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,306 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,321 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,341 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,351 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,370 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,429 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,445 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:21,463 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,601 "POST /corecode/class/create/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:43:27,628 "GET /corecode/class/list/ HTTP/1.1" 200 12073
+INFO 2023-04-11 14:43:27,683 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,707 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,739 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,756 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,775 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,802 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,819 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,833 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,855 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,875 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,886 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,929 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,962 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,978 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:27,999 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:34,840 "GET /student/create/ HTTP/1.1" 200 18092
+INFO 2023-04-11 14:43:34,906 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:34,935 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:34,950 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:34,967 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:34,982 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:34,995 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:35,008 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:35,029 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:35,063 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:35,079 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:35,097 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:35,111 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:43:35,130 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,297 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:45:09,347 "GET /student/1/ HTTP/1.1" 200 11600
+INFO 2023-04-11 14:45:09,389 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,419 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,450 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,468 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,486 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,513 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,529 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,544 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,577 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,594 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,609 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,625 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:09,650 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2023-04-11 14:45:09,662 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:22,926 "GET /finance/create/ HTTP/1.1" 200 14446
+INFO 2023-04-11 14:45:22,997 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,028 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,045 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,183 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,200 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,355 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,441 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,531 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,597 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,645 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,676 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,700 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:45:23,739 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,657 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2023-04-11 14:46:40,674 "GET /finance/list HTTP/1.1" 301 0
+INFO 2023-04-11 14:46:40,713 "GET /finance/list/ HTTP/1.1" 200 10587
+INFO 2023-04-11 14:46:40,779 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,794 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,804 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,816 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,843 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,856 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,871 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,886 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,902 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,923 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,937 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,954 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:40,968 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,560 "GET /finance/1/detail/ HTTP/1.1" 200 13896
+INFO 2023-04-11 14:46:55,614 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,647 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,663 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,678 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,691 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,707 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,727 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,758 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,774 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,793 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,810 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,821 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,856 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:46:55,870 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,111 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 11022
+INFO 2023-04-11 14:47:33,171 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,192 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,215 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,221 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,250 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,281 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,299 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,328 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,345 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,361 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,377 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,395 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:33,412 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,507 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2023-04-11 14:47:58,545 "GET /finance/list/ HTTP/1.1" 200 10591
+INFO 2023-04-11 14:47:58,603 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,616 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,638 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,650 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,664 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,685 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,699 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,715 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,748 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,766 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,786 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,798 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:47:58,815 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,263 "GET /finance/1/detail/ HTTP/1.1" 200 14108
+INFO 2023-04-11 14:48:03,323 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,354 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,366 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,382 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,395 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,417 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,447 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,461 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,475 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,494 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,512 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,528 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,543 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:03,556 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-04-11 14:48:29,590 "GET /finance/receipt/1/print/ HTTP/1.1" 200 5960

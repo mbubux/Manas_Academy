@@ -20,6 +20,7 @@ from django.contrib import admin
 
 urlpatterns = [
     path("", include("website.urls")),
+    path('admin/clearcache/', include('clearcache.urls')),
     path("admin/", admin.site.urls),
     path("accounts/", include("django.contrib.auth.urls")),
     path("corecode/", include("apps.corecode.urls")),
